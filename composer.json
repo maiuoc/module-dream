@@ -10,7 +10,7 @@
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
-            "MST\\Blog\\": ""
+            "MST\\Dream\\": ""
         }
     }
 }
