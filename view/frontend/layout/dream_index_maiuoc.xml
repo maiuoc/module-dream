@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <head>
+      <css src="MST_Dream::css/style.css" />
+	  <script src="MST_Dream::js/sample1.js"/>		
+	  <!-- <link src="js/sample.js"/>	 -->	
+    	<!-- Add external resources -->
+	    <css src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" src_type="url" />
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" src_type="url" /> -->
+        <link src="http://fonts.googleapis.com/css?family=Montserrat" src_type="url" /> 
+	</head>
+	<body>
+        <referenceContainer name="content">
+            <block class="MST\Dream\Block\NewsList" name="mst_dream_block_2" template="MST_Dream::maiuoc.phtml" />
+			<!-- get block from Magento\Catalog\Block\Product\View\Description  (code is ok)-->
+			 <!-- <block class="Magento\Catalog\Block\Product\View\Description" name="product.info.sku" template="MST_Dream::test_block_product.phtml" after="product.info.type">
+				<arguments>
+					<argument name="at_call" xsi:type="string">getSku</argument>
+					<argument name="at_code" xsi:type="string">sku</argument>
+					<argument name="css_class" xsi:type="string">sku</argument>
+				</arguments>
+			</block> -->
+		</referenceContainer>	
+		<!-- add image to heder block (code is ok)-->
+		<!-- <referenceBlock name="logo">
+			<arguments>
+				<argument name="logo_file" xsi:type="string">images/logo-mai-uoc.png</argument>
+			</arguments>
+		</referenceBlock> -->
+		<!-- add memu to sidebar -->
+		<referenceContainer name="sidebar.main">
+         <block class="MST\Dream\Block\Sidebar\Left" name="lestest.news.left"
+             before="-" />
+       </referenceContainer>
+ 
+       <referenceContainer name="sidebar.additional">
+         <block class="MST\Dream\Block\Sidebar\Right" name="lestest.news.right"
+             before="-" />
+       </referenceContainer>
+    </body>
+	
+</page>
