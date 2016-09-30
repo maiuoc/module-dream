@@ -2,7 +2,7 @@
     "name": "maiuoc/module-dream",
     "description": "Implements Blog functionality on Magento 2 store",
     "type": "magento2-module",
-    "version": "1.2.8",
+    "version": "1.3.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -15,7 +15,7 @@
     },
     "extra": {
         "map": [
-			["app/code/MST/Dream", "MST/Dream"],
+			["app/code/MST/Dream/", "MST/Dream"],
 			["composer.json", "MST/Dream"],
 			["README.md", "MST/Dream"],
 			["lib", "../../lib"],
