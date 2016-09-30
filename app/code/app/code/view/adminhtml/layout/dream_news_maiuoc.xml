@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+ 
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+   <update handle="formkey"/>
+   <update handle="dream_news_grid_block"/>
+   <body>
+       <referenceContainer name="content">
+           <block class="MST\Dream\Block\Adminhtml\Customegrid" name="mst_dream_news.grid.custom" template="MST_Dream::custom_grid.phtml" />
+       </referenceContainer>
+   </body>
+</page>
