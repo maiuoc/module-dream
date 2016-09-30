@@ -15,26 +15,18 @@
     },
     "extra": {
         "map": [
-            [
-                "*",
-                "MST/Dream"
-            ]
-        ]
-    },
-	"extra": {
-        "map": [
-            ["Block", "MST/Dream"],
-	["Controller", "MST/Dream"],
-	["etc", "MST/Dream"],
-	["Helper", "MST/Dream"],
-	["i18n", "MST/Dream"],
-	["Model", "MST/Dream"],
-	["Observer", "MST/Dream"],
-	["Setup", "MST/Dream"],
-	["view", "MST/Dream"],
-	["composer.json", "MST/Dream"],
-	["README.md", "MST/Dream"],
-	["registration.php", "MST/Dream"]
+		["Block", "MST/Dream"],
+		["Controller", "MST/Dream"],
+		["etc", "MST/Dream"],
+		["Helper", "MST/Dream"],
+		["i18n", "MST/Dream"],
+		["Model", "MST/Dream"],
+		["Observer", "MST/Dream"],
+		["Setup", "MST/Dream"],
+		["view", "MST/Dream"],
+		["composer.json", "MST/Dream"],
+		["README.md", "MST/Dream"],
+		["registration.php", "MST/Dream"]
         ]
     }
 }
