@@ -2,7 +2,7 @@
     "name": "maiuoc/module-dream",
     "description": "Implements Blog functionality on Magento 2 store",
     "type": "magento2-module",
-    "version": "1.1.8",
+    "version": "1.1.9",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
@@ -23,21 +23,19 @@
     },
 	"extra": {
         "map": [
-            [
-                ["Block", "MST\Dream"],
-                ["Controller", "MST\Dream"],
-                ["etc", "MST\Dream"],
-                ["Helper", "MST\Dream"],
-                ["i18n", "MST\Dream"],
-                ["Model", "MST\Dream"],
-                ["Observer", "MST\Dream"],
-                ["Setup", "MST\Dream"],
-                ["view", "MST\Dream"],
-                ["composer.json", "MST\Dream"],
-                ["README.md", "MST\Dream"],
-                ["registration.php", "MST\Dream"],
-                ["lib", "lib"],
-            ]
+            ["Block", "MST\Dream"],
+			["Controller", "MST\Dream"],
+			["etc", "MST\Dream"],
+			["Helper", "MST\Dream"],
+			["i18n", "MST\Dream"],
+			["Model", "MST\Dream"],
+			["Observer", "MST\Dream"],
+			["Setup", "MST\Dream"],
+			["view", "MST\Dream"],
+			["composer.json", "MST\Dream"],
+			["README.md", "MST\Dream"],
+			["registration.php", "MST\Dream"],
+			["lib", "lib"],
         ]
     }
 }
