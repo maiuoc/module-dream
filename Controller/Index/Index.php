@@ -25,7 +25,7 @@ class Index extends \Magento\Framework\App\Action\Action
         $resultPageFactory = $this->resultPageFactory->create();
  
         // Add page title
-        $resultPageFactory->getConfig()->getTitle()->set(__('Example module'));
+        $resultPageFactory->getConfig()->getTitle()->set(__('Example module AAAAAAAAAAAAAA'));
  
         // Add breadcrumb
         /** @var \Magento\Theme\Block\Html\Breadcrumbs */
